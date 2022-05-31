@@ -144,6 +144,6 @@ public void closebrowser()
 	driver=null;
     System.gc();
 }
-
+System.out.println("Changes made and send to local repo");
 
 }
