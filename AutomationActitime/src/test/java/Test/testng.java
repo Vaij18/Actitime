@@ -137,13 +137,14 @@ public void clearobjects()
 	loginPage=null;
 	//driver.close();
 }
-//@AfterTest
-//public void closebrowser()
-//{
-	//driver.close();
-	//driver=null;
-   // System.gc();
-}//
+@AfterTest
+public void closebrowser()
+{
+	driver.close();
+	driver=null;
+   System.gc();
+}
+}
 
 
 
